@@ -1,0 +1,704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fortunato\n"
+"POT-Creation-Date: 2017-05-18 10:50+0100\n"
+"PO-Revision-Date: 2017-05-18 10:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:27
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:39 index.php:36 search.php:40
+msgid "<i class=\"fa fa-angle-double-left spaceRight\"></i>Previous"
+msgstr ""
+
+#: archive.php:40 index.php:37 search.php:41
+msgid "Next<i class=\"fa fa-angle-double-right spaceLeft\"></i>"
+msgstr ""
+
+#: archive.php:41 content-single.php:24 index.php:38 search.php:42
+msgid "Page"
+msgstr ""
+
+#: comments.php:30 inc/template-tags.php:34
+msgid "1 Comment"
+msgstr ""
+
+#. translators: %s: number of comments
+#: comments.php:33
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:44
+msgid "Reply"
+msgstr ""
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:73
+msgid "Name *"
+msgstr ""
+
+#: comments.php:74
+msgid "Email *"
+msgstr ""
+
+#: comments.php:75
+msgid "Website *"
+msgstr ""
+
+#: comments.php:75
+msgid "Website"
+msgstr ""
+
+#: comments.php:77
+msgid " Required fields are marked "
+msgstr ""
+
+#. translators: %s: wordpress login url
+#: comments.php:82
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. translators: 1: profile user link, 2: username, 3: logout link
+#: comments.php:84
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:85
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:86
+msgid "Leave a Reply"
+msgstr ""
+
+#. translators: %s: name of person to reply
+#: comments.php:88
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:89
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:90
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:91
+msgid "Comment *"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s: create new post link
+#: content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:18 content-single.php:20
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:27 content.php:25 inc/template-tags.php:51
+msgid "Edit"
+msgstr ""
+
+#: content.php:23
+msgid "Read More"
+msgstr ""
+
+#: footer.php:14
+msgid "http://wordpress.org/"
+msgstr ""
+
+#. translators: %s: WordPress name
+#: footer.php:17
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: theme name, 2: theme developer
+#: footer.php:23
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:92
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:55
+msgid "Search for:"
+msgstr ""
+
+#: header.php:56
+msgid "Type here and hit enter..."
+msgstr ""
+
+#: header.php:59
+msgid "Close"
+msgstr ""
+
+#: header.php:88
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:37
+#: inc/admin/fortunato-admin-page.php:119
+msgid "About"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:95
+msgid "Dismiss"
+msgstr ""
+
+#. translators: 1: start option panel link, 2: end option panel link
+#: inc/admin/fortunato-admin-page.php:99
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing Fortunato! To fully take advantage of the "
+"best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:103
+msgid "Get started with Fortunato"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:126
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:128
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:130
+msgid "View PRO version Demo"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:132
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:147
+msgid "Free Vs PRO"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:150
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:184
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:185
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:186
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:190
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:191
+msgid "Please put it in our support forum."
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:192
+msgid "Support"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:196
+msgid "Need more features?"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:197
+#: inc/admin/fortunato-admin-page.php:296
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:198
+msgid "Info about PRO version"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:204
+#: inc/admin/fortunato-admin-page.php:212
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:208
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:224
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:224
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:227
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:227
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:244
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:301
+msgid "Features"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:302
+msgid "Fortunato"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:303
+msgid "Fortunato PRO"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:308
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:313
+msgid "Change Background"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:318
+msgid "Unlimited Text Color"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:323
+msgid "Social Buttons"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:328
+msgid "WooCommerce Style"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:333
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:338
+msgid "4 Post format"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:343
+msgid "Powerful theme options"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:348
+msgid "Choose Header Height (100% - 90% - 75% - 50%)"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:353
+msgid "Header Parallax"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:358
+msgid "Header with YouTube video"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:363
+msgid "Header with Google Maps"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:368
+msgid "Header with Parallax scene"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:373
+msgid "Header with Images Slider"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:378
+msgid "Page with only header"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:383 inc/fortunato-dynamic.php:366
+msgid "Loading Page"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:388
+msgid "Font switcher"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:393 inc/fortunato-dynamic.php:370
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:398 inc/fortunato-dynamic.php:371
+msgid "8 Shortcodes"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:403 inc/fortunato-dynamic.php:372
+msgid "11 Exclusive Widgets"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:408 inc/fortunato-dynamic.php:373
+msgid "Related Posts Box"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:413 inc/fortunato-dynamic.php:374
+msgid "Information About Author Box"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:418
+msgid "Custom image for 404 page & search page"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:426
+msgid "View PRO version demo"
+msgstr ""
+
+#: inc/admin/fortunato-admin-page.php:427
+msgid "More Information"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:52
+msgid "Facebook"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:55
+msgid "Twitter"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:58
+msgid "Google Plus"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:61
+msgid "Linkedin"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:64
+msgid "Instagram"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:67
+msgid "YouTube"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:70
+msgid "Pinterest"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:73
+msgid "Tumblr"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:76
+msgid "Flickr"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:79
+msgid "VK"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:82
+msgid "Xing"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:85
+msgid "Reddit"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:88
+msgid "Spotify"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:91
+msgid "Skype"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:105
+msgid "Background Color"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:111
+msgid "Text Color"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:117
+msgid "Secondary Text Color"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:123
+msgid "Special Color"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:155
+msgid "Fortunato Theme Options"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:168
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:173
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:178
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:183
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:188
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:193
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:198
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:203
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:208
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:213
+msgid "VK URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:218
+msgid "Xing URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:223
+msgid "Reddit URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:228
+msgid "Spotify URL"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:263
+msgid "Skype Username"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:280
+msgid "Show social on footer"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:298
+msgid "Show Overlay on Header"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:316
+msgid "Show Search Button in Main Menu"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:334
+msgid "Sidebar open by default"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:348
+msgid "Get Fortunato PRO WP Theme for only"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:353
+msgid "Watch the demo"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:356
+msgid "Get Fortunato PRO Theme"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:360
+msgid "Advanced Theme Options"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:361
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:362
+msgid "Google Maps in header"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:363
+msgid "YouTube Video in header"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:364
+msgid "Parallax Scene in header"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:365
+msgid "Slider in header home page"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:367
+msgid "Font Switcher"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:368
+msgid "Unlimited Colors and Skin"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:369
+msgid "Choose header height (100% - 90% - 75% - 50% - Menu Height)"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:375
+msgid "Custom image for 404 page and search page"
+msgstr ""
+
+#: inc/fortunato-dynamic.php:376
+msgid "And much more..."
+msgstr ""
+
+#: inc/fortunato-dynamic.php:382
+msgid "More features? Upgrade to PRO"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:77
+msgid "Fortunato PRO Theme"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:78
+msgid "More Info"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:45
+msgid ", "
+msgstr ""
+
+#. translators: %s: search query
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:19
+msgid "Next Post"
+msgstr ""
+
+#: single.php:20
+msgid "Next post:"
+msgstr ""
+
+#: single.php:22
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:23
+msgid "Previous post:"
+msgstr ""
+
+#: woocommerce/single-product/related.php:26
+msgid "Related Products"
+msgstr ""

@@ -1,0 +1,1 @@
+[21-May-2017 02:17:47 UTC] PHP Fatal error:  Call to undefined function apply_filters() in /home/reesian/public_html/wp-includes/load.php on line 316

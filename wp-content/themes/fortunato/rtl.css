@@ -1,0 +1,221 @@
+/*
+Theme Name: fortunato
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.sticky .entry-header .entry-title:before {
+	left: inherit;
+	right: -1em;
+}
+.spaceRight {
+	padding-right: 0;
+	padding-left: 5px;
+}
+.spaceLeft {
+	padding-right: 5px;
+	padding-left: 0;
+}
+blockquote {
+  padding: 1.5em 3.5em 1.5em 1.5em;
+  border-left: 1px solid #cea525;
+  border-right: 3px solid #cea525;
+}
+blockquote::before {
+  left: inherit;
+  right: 10px;
+}
+.post-navigation .nav-previous {
+	text-align: left;
+}
+#comments article footer img {
+  float: right;
+  margin-right: inherit;
+  margin-left: 1em;
+}
+#comments .reply {
+  right: inherit;
+  left: 0;
+}
+#comments ol ol {
+  padding-left: inherit;
+  padding-right: 5%;
+}
+.closeSearch {
+  float: left;
+}
+.widget_archive li, .widget_categories li {
+	text-align: left;
+}
+.widget_archive li a, .widget_categories li a {
+	float: right;
+}
+.widget.widget_categories li:before {
+	padding-right: inherit;
+	padding-left: 0.5em;
+	float: right;
+}
+.widget.widget_archive li:before {
+	content: "\f0d9";
+	padding-right: inherit;
+	padding-left: 0.5em;
+	float: right;
+}
+.comment-reply-title small {
+  float: left;
+}
+
+.main-navigation ul ul {
+	text-align: right;
+	padding-right: 0;
+}
+.main-navigation ul ul ul {
+	left: inherit;
+	right: 100%;
+}
+.main-navigation li a:not(:last-child):after {
+    margin: 0 10px 0 0;
+	float: left;
+}
+.main-navigation ul ul li a:not(:last-child):after {
+    content: "\f104";
+    margin: 2px 10px 0 0;
+    float: left;
+}
+.read-link i::before {
+	content: "\f104";
+}
+.sepHentry:before {
+    margin: 0 -55% 0 3%;
+}
+.sepHentry:after {
+	margin: 0 3% 0 -55%;
+}
+
+.main-navigation li a:not(:last-child):after {
+	line-height: inherit;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin-right: 85px;
+	margin-left: 0;
+}
+.woocommerce #reviews .commentlist li .avatar {
+    top: 0;
+    right: 0;
+    left: inherit;
+}
+.woocommerce div.product form.cart .variations td.label {
+    float: right;
+}
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
+    left: inherit;
+	right: 1em;
+}
+.woocommerce-error li a, .woocommerce-message a {
+    float: left;
+}
+.woocommerce-message, .woocommerce-info, .woocommerce-error {
+    padding: 0.5em 2.5em 0.5em 1.5em;
+}
+
+.product_list_widget li img {
+	margin-right: inherit;
+	margin-left: 1em;
+    float: right;
+}
+.widget_shopping_cart .product_list_widget li a.remove {
+	left: inherit;
+	right: 0;
+}
+.site-main .pagination .nav-links a.next i:before {
+	content: "\f100";
+}
+.site-main .pagination .nav-links a.prev i:before {
+	content: "\f101";
+}
+.woocommerce div.product .summary .stock,
+.single-product div.product .woocommerce-product-rating .woocommerce-review-link,
+.cart-collaterals .cart_totals, .cart-collaterals .shipping_calculator {
+	float: left;
+}
+.woocommerce div.product .summary .single_variation .price,
+.single-product div.product .woocommerce-product-rating .star-rating,
+.woocommerce-page table.cart td.actions .coupon {
+    float: right;
+}
+.woocommerce-page table.cart td.actions {
+    text-align: left;
+}
+.woocommerce-page .entry-content table td, .woocommerce-page .entry-content table th {
+	text-align: right;
+}
+aside ul.menu .indicatorBar {
+	right: inherit;
+	left: 0;
+	border-left-width: inherit;
+    border-left-style: inherit;
+	border-left-color: inherit;
+	border-right-color: rgba(0,0,0,.1);
+	border-right-width: 1px;
+    border-right-style: solid;
+}
+aside ul.menu ul.sub-menu {
+    padding-left: inherit;
+	padding-right: 2em;
+}
+.widget.widget_search input[type="search"],
+.widget.woocommerce.widget_product_search input[type="search"] {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+	border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+	float: right;
+}
+.widget.widget_search input[type="submit"],
+.widget.woocommerce.widget_product_search input[type="submit"] {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+	border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+	float: left;
+}
+.woocommerce ul.products > li {
+	float: right;
+}
+@media screen and (max-width: 768px) {
+	.menu-toggle, .main-navigation a {
+		text-align: right;
+	}
+	.menu-toggle i {
+		float: left;
+	}
+	.main-navigation ul ul, .main-navigation ul ul ul {
+		padding-left: 0;
+		padding-right: 5%;
+	}
+	.main-navigation ul {
+		padding: 0;
+	}
+}
+@media (max-width: 579px) {
+	.sticky .entry-title {
+		padding-right: 1em;
+		padding-left: inherit;
+	}
+	.sticky .entry-header .entry-title:before {
+		right: 0;
+	}
+	.entry-meta .spaceLeftRight {
+		margin-right: inherit;
+		margin-left: 5px;
+	}
+}
