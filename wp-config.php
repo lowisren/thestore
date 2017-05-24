@@ -5,6 +5,8 @@ define( 'FORCE_SSL_LOGIN', true );
 define( 'FORCE_SSL_ADMIN', true );
 //The entry below were created by iThemes Security to disable the file editor
 define( 'DISALLOW_FILE_EDIT', true );
+define('WP_ALLOW_REPAIR', true);
+
 
 /**
  * This config file is yours to hack on. It will work out of the box on Pantheon
@@ -139,7 +141,7 @@ define('WPLANG', 'en_US');
  * You may want to examine $_ENV['PANTHEON_ENVIRONMENT'] to set this to be
  * "true" in dev, but false in test and live.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 define('WP_HOME', $http_s . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', $http_s . $_SERVER['HTTP_HOST'] );
